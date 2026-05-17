@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { SectionHeader } from "./Section";
 import { Target, Brain, Network, Trophy } from "lucide-react";
+import heroStudents from "@/assets/hero-students.jpg";
 
 const pillars = [
   { icon: Brain, title: "Personalized Counselling", text: "1:1 mentorship tailored to each student's strengths, goals, and aspirations." },
@@ -29,8 +30,15 @@ export function About() {
             className="relative aspect-square w-full"
           >
             <div className="absolute inset-0 rounded-[2rem] bg-aurora opacity-20 blur-3xl" />
-            <div className="glass-strong relative h-full overflow-hidden rounded-[2rem] p-6">
-              <div className="absolute inset-0 bg-grid opacity-30" />
+            <div className="glass-strong relative h-full overflow-hidden rounded-[2rem]">
+              <img
+                src={heroStudents}
+                alt="Students celebrating admission success"
+                className="absolute inset-0 size-full object-cover opacity-60 mix-blend-luminosity"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
+              <div className="absolute inset-0 bg-grid opacity-20" />
+              <div className="relative h-full p-6"></div>
               {/* concentric rings */}
               <div className="absolute inset-0 grid place-items-center">
                 {[0.3, 0.5, 0.7, 0.9].map((s, i) => (
