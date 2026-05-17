@@ -38,7 +38,7 @@ export function About() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
               <div className="absolute inset-0 bg-grid opacity-20" />
-              <div className="relative h-full p-6"></div>
+              
               {/* concentric rings */}
               <div className="absolute inset-0 grid place-items-center">
                 {[0.3, 0.5, 0.7, 0.9].map((s, i) => (
