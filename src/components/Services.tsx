@@ -41,7 +41,7 @@ function ServiceCard({ s, i }: { s: typeof services[number]; i: number }) {
       <div className="absolute inset-0 bg-grid opacity-0 transition-opacity duration-500 group-hover:opacity-20" />
       <div className="relative" style={{ transform: "translateZ(40px)" }}>
         <div className="mb-5 inline-flex size-12 items-center justify-center rounded-xl bg-aurora shadow-glow">
-          <s.icon className="size-5 text-background" />
+          <s.icon className="size-5 text-primary-foreground" />
         </div>
         <h3 className="font-display text-xl font-semibold">{s.title}</h3>
         <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{s.desc}</p>

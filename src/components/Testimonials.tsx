@@ -36,7 +36,7 @@ export function Testimonials() {
                 <Quote className="size-8 text-neon opacity-80" />
                 <p className="relative mt-4 text-sm leading-relaxed text-foreground/90">"{t.text}"</p>
                 <div className="mt-6 flex items-center gap-3 border-t border-border pt-4">
-                  <div className="grid size-10 place-items-center rounded-full bg-aurora font-display text-sm font-semibold text-background">
+                  <div className="grid size-10 place-items-center rounded-full bg-aurora font-display text-sm font-semibold text-primary-foreground">
                     {t.name.split(" ").map(w => w[0]).join("")}
                   </div>
                   <div>

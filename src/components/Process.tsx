@@ -35,7 +35,7 @@ export function Process() {
               <div className="flex items-start gap-5">
                 <div className="relative">
                   <div className="grid size-14 place-items-center rounded-2xl bg-aurora shadow-glow">
-                    <s.icon className="size-6 text-background" />
+                    <s.icon className="size-6 text-primary-foreground" />
                   </div>
                   <div className="absolute -top-1 -right-1 grid size-6 place-items-center rounded-full bg-background text-[10px] font-bold text-neon ring-1 ring-neon/50">
                     {i + 1}

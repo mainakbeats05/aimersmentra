@@ -32,7 +32,7 @@ export function Colleges() {
             {loop.map((c, i) => (
               <div key={i} className="glass flex h-20 w-56 shrink-0 items-center gap-3 rounded-2xl px-5">
                 <div className="grid size-10 place-items-center rounded-lg bg-aurora">
-                  <GraduationCap className="size-5 text-background" />
+                  <GraduationCap className="size-5 text-primary-foreground" />
                 </div>
                 <div>
                   <div className="text-sm font-semibold">{c.short}</div>

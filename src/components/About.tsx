@@ -51,7 +51,7 @@ export function About() {
                   />
                 ))}
                 <div className="relative grid size-32 place-items-center rounded-full bg-aurora shadow-glow">
-                  <Trophy className="size-12 text-background" strokeWidth={2} />
+                  <Trophy className="size-12 text-primary-foreground" strokeWidth={2} />
                 </div>
               </div>
               {/* floating tags */}
@@ -89,7 +89,7 @@ export function About() {
                 <div className="absolute -top-12 -right-12 size-32 rounded-full bg-aurora opacity-0 blur-2xl transition-opacity duration-500 group-hover:opacity-40" />
                 <div className="relative">
                   <div className="mb-4 grid size-11 place-items-center rounded-xl bg-aurora shadow-glow">
-                    <p.icon className="size-5 text-background" />
+                    <p.icon className="size-5 text-primary-foreground" />
                   </div>
                   <h3 className="font-display text-lg font-semibold">{p.title}</h3>
                   <p className="mt-2 text-sm text-muted-foreground">{p.text}</p>

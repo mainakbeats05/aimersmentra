@@ -125,7 +125,7 @@ export function Cities() {
                     key={c.name}
                     onClick={() => setActive(c)}
                     className={`rounded-full px-3 py-1 text-xs transition-colors ${
-                      c.name === active.name ? "bg-aurora text-background" : "glass hover:text-neon"
+                      c.name === active.name ? "bg-aurora text-primary-foreground" : "glass hover:text-neon"
                     }`}
                   >
                     {c.name}
