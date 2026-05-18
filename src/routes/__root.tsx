@@ -77,6 +77,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "author", content: "Aimers Mentra" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Aimers Mentra — India's Premium College Admission Consultancy" },
+      { name: "twitter:title", content: "Aimers Mentra — India's Premium College Admission Consultancy" },
+      { property: "og:description", content: "Premium admission consultancy guiding students into India's top colleges." },
+      { name: "twitter:description", content: "Premium admission consultancy guiding students into India's top colleges." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/7de5cf6b-32b5-4f4d-9adc-2b206daa5d6a" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/7de5cf6b-32b5-4f4d-9adc-2b206daa5d6a" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
